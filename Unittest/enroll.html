@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 7px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 15%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+</style>
+<body background="https://frs.tptests.com/content/images/frs/login-page-background.png">
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Student Performance</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="home.html">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">technical<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">java</a></li>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">C++</a></li>
+        </ul>
+      </li>
+       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Extra Curricular<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">project</a></li>
+          <li><a href="#">Research</a></li>
+          <li><a href="#">Seminars</a></li>
+        </ul>
+      </li>
+      
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  <center>
+<form action="./Regserv">
+                             &emsp;&emsp;&nbsp;<h3>Registration</h3>
+
+			<table style="with: 50%">
+				<tr>
+					<td>Name</td>
+					<td><input type="text" name="name" ></td>
+				</tr>
+
+				<tr>
+					<td>Phone no</td>
+					<td><input type="text" name="phone" ></td>
+				</tr>
+				<tr>
+					<td>Student Id</td>
+					<td><input type="text" name="id" ></td>
+				</tr>
+					<tr>
+					<td>UserName</td>
+					<td><input type="text" name="uname" ></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="text" name="pass" ></td>
+				</tr>
+				</table>
+<br>
+			&nbsp;&emsp;&emsp;<input type="submit" value="register" /></form>
+</center>
+</div>
+
+</body>
+</html>
